@@ -1,0 +1,29 @@
+# ---- Visual Studio / .NET ----
+
+# Resultados de compilacion: se regeneran solos, no se suben
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Carpeta de configuracion local de Visual Studio
+.vs/
+
+# Archivos de usuario (preferencias, ventanas abiertas)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Paquetes NuGet descargados
+packages/
+*.nupkg
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Configuracion sensible (cadenas de conexion con usuario y clave)
+appsettings.Development.json
+.env
